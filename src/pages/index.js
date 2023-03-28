@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>refine</title>
+        <title>re.fine</title>
         <meta name="description" content="&#3196; an independent design practice by designer Ryan Meyers " />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
