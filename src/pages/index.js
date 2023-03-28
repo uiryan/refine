@@ -13,7 +13,11 @@ export default function Home() {
       <div className='gradient-background'></div>
       <div className="page-wrapper">
       <div className="hero">
-        <img class="logo" src="/refine.svg" />
+        <Image 
+        src="/refine.svg" 
+        width={198}
+        height={48} 
+        alt="refine" />
         <p>Est. 2023</p>
         <p>
           <span className="p-highlight">re.fine</span> is and independent design
