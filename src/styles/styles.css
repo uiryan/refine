@@ -1,0 +1,112 @@
+body {
+    background-color: #000;
+    font-family: Inter, sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    color: #bebebe;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.013em;
+  }
+  
+  a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    letter-spacing: -0.013em;
+    text-decoration: none;
+  }
+  
+  .page-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle farthest-corner at 50% 50%, #1b1b1b, #000);
+  }
+  
+  .hero {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: 0%;
+    display: flex;
+    width: 40vw;
+    padding-right: 0vw;
+    padding-left: 5vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  
+  .p-highlight {
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .prototype {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: none;
+    width: 56vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prototype-img {
+    max-height: 70vh;
+  }
+  
+  .logo {
+    max-width: 198px;
+    padding-bottom: 16px;
+  }
+
+  .gradient-background {
+    position:absolute;
+    height:100vh;
+    width:100vw;
+    background: radial-gradient(circle at 100%,#000000,#212121,#010101);
+    background-size: 140% 140%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .hero {
+      width: 72vw;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .hero {
+      width: 80vw;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .hero {
+      width: 90vw;
+    }
+  }
